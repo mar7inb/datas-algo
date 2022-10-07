@@ -1,2 +1,2 @@
 # datas-algo
-I will be taking some notes on important things on my Data Structures & Algorithims course and uploading them here. This will mostly be for tracking my progress. 
+I will be taking some notes on my Data Structures & Algorithims course and uploading them here in order to track my progress. 
