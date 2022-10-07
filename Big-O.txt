@@ -1,0 +1,7 @@
+// DATA STRUCTURES AND ALGORITHIMS 
+
+// BIG O 
+
+What is good code? 
+1. Readable - can others understand your code?
+2. Scalable - 
