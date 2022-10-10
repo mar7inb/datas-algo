@@ -1,8 +1,33 @@
 // DATA STRUCTURES AND ALGORITHIMS 
+ Data structures allow us to organize and store data, while algorithms allow us to process that data in a meaningful way. 
 
-// BIG O 
+// BIG O - How long does an algorithm take to run? 
 
 What is good code? 
 1. Readable - can others understand your code?
-2. Scalable - 
+2. Scalable - When we grow bigger and bigger with our input, how much does the algorithm slow down? The less the better! 
 
+// BIG O Notations 
+O(n) - Linear Time; for loops, while loops throuh n items. 
+O(1) - Constant Time - excellent, very scalable. Doesn't matter how many elements there are, it always will run the same. 
+
+
+// EXAMPLE OF BIG O NOTATIONS 
+function anotherFunChallenge(input) {
+  let a = 5;  //O(1)
+  let b = 10; //O(1)
+  let c = 50; //O(1)
+  for (let i = 0; i < input; i++) {  
+    let x = i + 1;  //O(n)
+    let y = i + 2;  //O(n)
+    let z = i + 3;  //O(n)
+
+  }
+  for (let j = 0; j < input; j++) {
+    let p = j * 2;  //O(n)
+    let q = j * 2;  //O(n)
+  }
+  let whoAmI = "I don't know";  //O(1)
+}
+
+BIG O is (4 + 5n) // 7n if we include for loops
