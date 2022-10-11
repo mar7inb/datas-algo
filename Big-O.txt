@@ -7,9 +7,11 @@ What is good code?
 1. Readable - can others understand your code?
 2. Scalable - When we grow bigger and bigger with our input, how much does the algorithm slow down? The less the better! 
 
-// BIG O Notations 
+// BIG O NOTATIONS
 O(n) - Linear Time; for loops, while loops throuh n items. 
-O(1) - Constant Time - excellent, very scalable. Doesn't matter how many elements there are, it always will run the same. 
+O(1) - Constant Time - excellent, very scalable. Doesn't matter how many elements there are, it always will run the same - no loops. 
+O(n^2) - Quadratic- every element in a collection needs to be compared to ever other element. Two
+nested loops. 
 
 
 // EXAMPLE OF BIG O NOTATIONS 
@@ -30,4 +32,19 @@ function anotherFunChallenge(input) {
   let whoAmI = "I don't know";  //O(1)
 }
 
-BIG O is (4 + 5n) // 7n if we include for loops
+BIG O is (4 + 5n) // 7n if we include for loops. HOWEVER, WE ALWAYS WANT TO REMOVE CONSTANTS SO THIS JUST BECOMES O(n). 
+
+//COMMON INTERVIEW QUESTION
+-Log all parts of array 
+
+const boxes = [1,2,3,4,5];
+
+function logAllPairsOfArray(array){
+  for(let i = 0; i < array.length; i++) {
+    for (let j = 0; j < array.length; j ++) { 
+      console.log(i, j)
+    }
+  }
+}
+
+RULE OF THUMB: IF YOU SEE NESTED LOOPS WE USE MULTIPLICATION. THEREFORE THE O NOTATION FOR THIS BECOMES O(n^2).
