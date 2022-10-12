@@ -1,0 +1,10 @@
+*Good software engineers choose the right data structure and algorithim to create a good program. 
+
+// THREE PILLARS OF PROGRAMMING 
+1. READABLE - Clean code
+
+2. SPEED - Efficient time complexity
+
+3. MEMORY - Space complexity
+
+// MOST PROGRAMMING CODE SOLUTION THERE IS USUALLY A TRADE OFF BETWEEN SPEED AND MEMORY. 
