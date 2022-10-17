@@ -1,3 +1,6 @@
+
+
+
 What is a Data Structure?
 - A data structure is collection of values 
 
@@ -6,5 +9,8 @@ What is an Algorithim?
 
 *A person who knows how Data Structures + Algorithims work and how to use them can write great programs. 
 
+Although it may be important to know the latest and greatest syntax or library of any programming language - 
+these things change. 
+Knowing the fundamentals of Data Structures and Algorithims is far more important to become a great dev/engineer.
 
-Although it may be important to know the latest and greatest syntax or library of any programming language - these things change. Knowing the fundamentals of Data Structures and Algorithims is far more important to become a great dev/engineer.
+
