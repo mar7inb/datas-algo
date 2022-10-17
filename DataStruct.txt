@@ -1,16 +1,18 @@
 
 
-
 What is a Data Structure?
-- A data structure is collection of values 
+- A data structure is collection of values. It's a way to organize data and store things such as strings, booleans, numbers, etc.
+Arrays and Objects in JSare a data structure that allow us to store info. 
 
-What is an Algorithim?
-- Algorithims, are the steps or processes we put into place to manipulate these collections of values. It's what allows us to write programs. 
+What is an Algorithm?
+- Algorithms, are the steps or processes we put into place to manipulate these collections of values. It's what allows us to write programs. 
 
 *A person who knows how Data Structures + Algorithims work and how to use them can write great programs. 
 
 Although it may be important to know the latest and greatest syntax or library of any programming language - 
 these things change. 
-Knowing the fundamentals of Data Structures and Algorithims is far more important to become a great dev/engineer.
+Knowing the fundamentals of Data Structures and Algorithms is far more important to become a great dev/engineer.
+
+
 
 
