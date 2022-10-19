@@ -1,0 +1,13 @@
+
+When and why should we use arrays? 
+- Arrays are really good at sorting data because they are in sequential order according to their index. 
+- Arrays are great for fast lookups, accessing information where you know which index you want to lookup. 
+- Really fast at push and pop - adding and taking away from the array. 
+- Ordered - having something that is ordered and close to each other in memory makes it fast. 
+
+Weaknesses:
+- slow inserts
+- slow deletes
+- fixed size when using static array 
+
+
