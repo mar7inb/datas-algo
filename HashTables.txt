@@ -1,0 +1,10 @@
+A Hash Function is simply a function that generates a value for each input that it gets. 
+
+Let's break this down. If we go to https://www.md5hashgenerator.com/ and we type in 'hello' for the string it will give us a bunch a combination 
+of letters and numbers; this is what a hash function does, we give it an input and the function generates a random pattern. 
+
+KEY ASPECTS of Hash Tables:
+1. One way - if you give someone the random pattern or value the hash function generates they won't know what the input was(hello). 
+It's also impossible to know what the input is based on the pattern or value. 
+
+2. The reason we would want to use this in a data structure is to get really fast data access. 
