@@ -1,3 +1,5 @@
+
+
 A Hash Function is simply a function that generates a value for each input that it gets. 
 
 Let's break this down. If we go to https://www.md5hashgenerator.com/ and we type in 'hello' for the string it will give us a bunch a combination 
@@ -8,3 +10,7 @@ KEY ASPECTS of Hash Tables:
 It's also impossible to know what the input is based on the pattern or value. 
 
 2. The reason we would want to use this in a data structure is to get really fast data access. 
+
+The problem with hash tables is regardless of its speed we could constantly be adding to the same memory space which slows down the ability to access 
+or add information. This is called a collision. 
+
