@@ -12,5 +12,14 @@ It's also impossible to know what the input is based on the pattern or value.
 2. The reason we would want to use this in a data structure is to get really fast data access. 
 
 The problem with hash tables is regardless of its speed we could constantly be adding to the same memory space which slows down the ability to access 
-or add information. This is called a collision. 
+or add information. This is called a collision which causes data loss. 
+
+Further understanding Hash Tables:
+A hash function has to be used every time we create, read, update, or delete data. 
+
+
+Implementing a Hash Table:
+
+
+
 
