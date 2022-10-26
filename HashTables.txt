@@ -16,10 +16,12 @@ or add information. This is called a collision which causes data loss.
 
 Further understanding Hash Tables:
 A hash function has to be used every time we create, read, update, or delete data. 
+Hash Tables improve time complexity when dealing with nesed loops. The tradeoff here is more memory but faster access. 
 
 Hash Tables Vs Arrays:
-- Hash Tables have no concept of order, they are placed all over the place. 
+- Regardless of their fast lookups, inserts, and flexible keys; Hash Tables have no concept of order, they are placed all over the place. 
 - Arrays have concept of order (0, 1, 2, 3) each item within an array are placed next to each other on a shelf in memory. 
+
 
 
 
