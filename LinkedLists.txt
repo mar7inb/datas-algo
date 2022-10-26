@@ -10,3 +10,8 @@ than iterating through items in an array (both of these are O(n)).
 
 The obvious advantage that a Linked List has over a Hash Table is that it has order. 
 
+
+Extras:
+What is a pointer in CS?
+A pointer is simply a reference to an object or just a reference. 
+
