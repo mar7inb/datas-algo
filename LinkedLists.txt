@@ -1,0 +1,10 @@
+
+
+A Linked List contains a set of nodes, these nodes have two elements; The value of the data and a pointer to the next node in line. 
+The first Node is called the head and the last node is called the tail. 
+
+Why should we use Linked Lists? How are they better than arrays and Hash Tables? 
+The main difference between Linked Lists and an array is that in an array elements are indexed. In a Linked List it starts at the head and it traverses 
+all the way to the end. Array items are located next to each other in memory, Linked Lists are scattered. Traversing through a Linked List is slower 
+than iterating through items in an array (both O(n))
+
