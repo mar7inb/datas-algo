@@ -15,3 +15,7 @@ Extras:
 What is a pointer in CS?
 A pointer is simply a reference to an object or just a reference to something else in memory. 
 
+Doubly Linked Lists
+- Type of linked list where each node besides storing its data, it has two links. 1st link points to the previous node in the list and 2nd link 
+points to 2nd node in the list.
+
