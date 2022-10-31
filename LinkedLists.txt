@@ -19,3 +19,7 @@ Doubly Linked Lists
 - Type of linked list where each node besides storing its data, it has two links. 1st link points to the previous node in the list and 2nd link 
 points to 2nd node in the list.
 
+- With a Linked list it only traverses from head to tail, where as a doubly linked list it is possible to traverse our list backwards.
+
+- The downside of a doubly linked list is that we might have to hold a bit more memory. 
+
