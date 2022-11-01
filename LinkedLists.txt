@@ -23,3 +23,9 @@ points to 2nd node in the list.
 
 - The downside of a doubly linked list is that we might have to hold a bit more memory. 
 
+Single vs Double
+- The pro of a single linked list is that it's a simple implementation and requires less memory making a bit faster (fast insertion and deletion).
+- The downside of a single linked list is that it cannot be traversed from back to front. 
+
+- Double linked lists require more memory and are more complex, they are really good when there isn't much limitation on memory. 
+
