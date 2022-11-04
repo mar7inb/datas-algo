@@ -4,8 +4,8 @@ A Linked List contains a set of nodes, these nodes have two elements; The value 
 The first Node is called the head and the last node is called the tail. 
 
 Why should we use Linked Lists? How are they better than arrays and Hash Tables? 
-The main difference between Linked Lists and an array is that in an array elements are indexed. In a Linked List it starts at the head and it traverses 
-all the way to the end. Array items are located next to each other in memory, Linked Lists are scattered. Traversing through a Linked List is slower 
+The main difference between Linked Lists and an array is that in an array the elements are indexed. In a Linked List, elements start at the head and it traverses 
+all the way to the end(tail). Array items are located next to each other in memory and Linked Lists items are scattered. Traversing through a Linked List is slower 
 than iterating through items in an array (both of these are O(n)). 
 
 The obvious advantage that a Linked List has over a Hash Table is that it has order. 
@@ -27,5 +27,5 @@ Single vs Double
 - The pro of a single linked list is that it's a simple implementation and requires less memory making a bit faster (fast insertion and deletion).
 - The downside of a single linked list is that it cannot be traversed from back to front. 
 
-- Double linked lists require more memory and are more complex, they are really good when there isn't much limitation on memory. 
+- Double linked lists require more memory and are more complex, but they are really good when there isn't much limitation on memory. 
 
