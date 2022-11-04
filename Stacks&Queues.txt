@@ -1,0 +1,5 @@
+
+Stacks and Queues are linear data structures. Linear Data Structures allow us to traverse (Go through data elements sequentially - 1 by 1)
+In which only 1 data element can be reached. 
+
+Stacks and Queues are implentend in similar ways and the main differnce between the two is how items get removed. 
