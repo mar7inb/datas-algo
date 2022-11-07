@@ -4,10 +4,17 @@ In which only 1 data element can be reached.
 
 Stacks and Queues are implentend in similar ways and the main differnce between the two is how items get removed. 
 
+
 Stacks - You can think of them as plates, where there is a piece of data and then another piece of data that gets stacked on top and so on. 
 Stacks are useful when you need to know the last value added. For example, browser history. When going back and forth from one site to another
-it uses stacks. In Summary; stacks store the previous state of work in memory in such an order that the last one appears first. 
+it uses stacks. It is important to mention that stacks follow the LIFO method (Last In First Out).
+In Summary; stacks store the previous state of work in memory in such an order that the last one appears first. 
 
-Stacks usually come with 3 types of methods:  pop(removes the last item), push(add a plate), peek(view top plate).
+Stacks usually come with 3 types of methods: pop(removes the last item), push(add a plate), peek(view top plate).
 
+Queues: The best way to think about queues is like an entrance to a theme park ride; the first person that arrives gets to go to first, then second, 
+then third, and so on. Unlike Stacks, Queues follow the FIFO method (First In First Out). Queues present themselves in any wait list application, 
+this can be any app where you can buy tickets, make reservations for restaurants, and even more specifically; lyft and uber. 
 
+Queues come with 3 types of methods as well: enqueue(add), dequeue(remove), peek(tells us what the first item to come out.)
+(dequeue unlike pop doesnt remove the last item, it removes the first) - this is where stacks and queues defer. 
