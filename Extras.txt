@@ -1,3 +1,8 @@
 How does Javascript work?
 
 Let's start with this, what is a Program? A program has to do 2 simple things: allocate memory and parse and execute(read and run commands). 
+
+Javascript is a single threaded language that can be non-blocking. Single threaded means it only has one call stack - it can only do one thing at a time. 
+A call stack uses the FILO method - First In Last Out. Whatever is at top of the call stack gets run first. 
+
+
