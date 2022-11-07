@@ -6,4 +6,8 @@ Stacks and Queues are implentend in similar ways and the main differnce between 
 
 Stacks - You can think of them as plates, where there is a piece of data and then another piece of data that gets stacked on top and so on. 
 Stacks are useful when you need to know the last value added. For example, browser history. When going back and forth from one site to another
-it uses stacks. 
+it uses stacks. In Summary; stacks store the previous state of work in memory in such an order that the last one appears first. 
+
+Stacks usually come with 3 types of methods:  pop(removes the last item), push(add a plate), peek(view top plate).
+
+
