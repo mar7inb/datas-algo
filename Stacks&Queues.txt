@@ -2,8 +2,10 @@
 Stacks and Queues are linear data structures. Linear Data Structures allow us to traverse (Go through data elements sequentially - 1 by 1)
 In which only 1 data element can be reached. 
 
-Stacks and Queues are implentend in similar ways and the main differnce between the two is how items get removed. 
-
+Stacks and Queues are implentend in similar ways and the main differnce between the two is how items get removed. However, their both great at performing
+fast operations such as removing or inserting. We also have the capability to access the first item in a queue or stack quickly; lastly, the data
+in these are nicely ordered. The main downside for both of these is that there is a slow lookup, which we shouldn't be using this data structure
+to look anything up in the first place. 
 
 Stacks - You can think of them as plates, where there is a piece of data and then another piece of data that gets stacked on top and so on. 
 Stacks are useful when you need to know the last value added. For example, browser history. When going back and forth from one site to another
@@ -18,3 +20,5 @@ this can be any app where you can buy tickets, make reservations for restaurants
 
 Queues come with 3 types of methods as well: enqueue(add), dequeue(remove), peek(tells us what the first item to come out.)
 (dequeue unlike pop doesnt remove the last item, it removes the first) - this is where stacks and queues defer. 
+
+
