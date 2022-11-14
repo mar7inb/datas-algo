@@ -19,6 +19,15 @@ Binary Search Trees
    All child nodes in the tree to the left of the root node must be lesser than the current node. 
 2. A node can only have up to 2 children. 
 
+Pros of Binary Search Trees
+> Better than O(n) - really good performance assuming it's balanced.
+> Ordered structure
+> Flexible size
+
+Cons of Binary Search Trees
+> Adding nodes to only one side of the tree will cause it to be unbalanced; this will decrease the time of inserting, deleting, and lookups
+because it will have to loop through so many nodes (becomes linear time).
+> No O(1) operations. 
 
 
 
