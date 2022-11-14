@@ -6,9 +6,22 @@ Trees
 
 Where can we see examples of Trees being used in programming? 
 Web pages are created by using DOM (Document Object Model) which is a tree data structure. Within the DOM we have a head and a body that are 
-children of the HTML tag and inside the body there are many more children that make them connected hierarchical to one another. 
+children of the HTML tag and inside the body there are many more children that make them connected hierarchically to one another. 
 
 Binary Trees
 > Type of tree where each node can only have either 0, 1 or 2 nodes and each child can only have 1 parent. 
 > Each nodes represents a certain state. 
+
+Binary Search Trees
+> Binary Search Trees are really good at searching and great for comparing things. 
+> Rules of Binary Search Trees: 
+1. All child nodes in the tree to the right of the root node must be greater than the current node. 
+   All child nodes in the tree to the left of the root node must be lesser than the current node. 
+2. A node can only have up to 2 children. 
+
+
+
+
+
+If interested in visualizing binary search trees: https://visualgo.net/en/bst
 
