@@ -1,0 +1,8 @@
+> Trees are a data structure that have a "hierarch" goal.
+> A tree usually starts with a single root node (or parent node) and every child of the tree descends from that node. 
+> Trees can have 0 or more child nodes.
+
+
+Where can we see examples of Trees being used in programming? 
+Web pages are created by using DOM (Document Object Model) which is a tree data structure. Within the DOM we have a head and a body that are 
+children of the HTML tag and inside the body there are many more children that make them connected hierarchical to one another. 
